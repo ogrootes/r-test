@@ -74,7 +74,7 @@ True          GenTiStp     - Method to stop the generator {T: timed using TimGen
 ---------------------- CABLE CONTROL -------------------------------------------
           0   CCmode       - Cable control mode {0: none, 4: user-defined from Simulink/Labview, 5: user-defined from Bladed-style DLL} (switch)
 ---------------------- BLADED INTERFACE ---------------------------------------- [used only with Bladed Interface]
-"../5MW_Baseline/ServoData/DISCON_OC3Hywind.dll"    DLL_FileName - Name/location of the dynamic library {.dll [Windows] or .so [Linux]} in the Bladed-DLL format (-) [used only with Bladed Interface]
+"../5MW_Baseline/ServoData/DISCON_OC3/DISCON_OC3Hywind.dll"   DLL_FileName    - Name/location of the dynamic library {.dll [Windows] or .so [Linux]} in the Bladed-DLL format (-) [used only with Bladed Interface]
 "DISCON.IN"    DLL_InFile   - Name of input file sent to the DLL (-) [used only with Bladed Interface]
 "DISCON"      DLL_ProcName - Name of procedure in DLL to be called (-) [case sensitive; used only with DLL Interface]
 "default"     DLL_DT       - Communication interval for dynamic library (s) (or "default") [used only with Bladed Interface]
@@ -107,5 +107,4 @@ True          TabDelim     - Use tab delimiters in text tabular output file? (fl
 "GenPwr"                  - Electrical generator power
 "GenTq"                   - Electrical generator torque
 END of ServoDyn input file (the word "END" must appear in the first 3 columns of this last line).
-
 
